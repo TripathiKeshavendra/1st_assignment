@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: aqua;
+            text-align: center;
+        }
+        button{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: darkgreen;
+            border-radius: 6px;
+            cursor: pointer;
+            color: white;
+
+        }
+        #logo{
+            border-radius: 20%;
+        }
+        body{
+            background-color: aliceblue;
+            background-image: url("5img.jpg");
+        }
+        button:hover {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+        }
+        .two{
+            border-radius: 100%;
+        }
+        #one{
+            font-size: 50px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+ <table>
+    <thead>
+        <tr>
+            <td><img src="task1img.jfif" id="logo" height="120" width="120" alt="logo"></td>
+            <td id="one">VATVRIKSHA</td>
+        </tr>
+    </thead>
+ </table>
+ <table>
+    <tbody>
+        <tr>
+            <td><img src="vatimg.jpg"height="380" width="700" alt="image"></td>
+            <td style="width: 50%;">
+                <h1>LOGIN HERE</h1>
+                <form action="">
+                 <center><!--it should be done by CSS-->
+                    <div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="username.jpg" class="two " height="30" width="30" alt="">
+                                </td>
+                                <td>
+                                    <input required type="text" id="email" name="email" placeholder="UserID/EmailID" >
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                 </center><br>
+                 <center>
+                    <div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="password.jpg" class="two" height="30" width="30" alt="">
+                                </td>
+                                <td>
+                                    <input required type="password" id="password" name="password" size="20" placeholder="password">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                 </center><br>
+                 <div>
+                    <center><button type="submit">Login</button></center>
+                </div><br>
+                 <div>
+                    <label for="Remember"><b>Remember me</b></label>
+                    <input type="checkbox">
+                 </div><br>
+                    <div>
+                      <table style="width: 100%;">
+                              <td>
+                               <button type="button" align="left">Create New Account</button>
+                              </td>
+                              <td align="right">
+                               <a href="https://www.gmail.com" target="_blank">Forgot password ?</a>
+                             </td>
+                      </table>
+                    </div><br>
+                   
+
+                </form>
+            </td>
+        </tr>
+    </tbody>
+ </table>
+    
+    
+</body>
+</html>
